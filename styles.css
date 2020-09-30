@@ -1,0 +1,56 @@
+html,
+body {
+  background-color: rgb(189, 206, 206);
+  font-family: "Crimson Text", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  /* margin: 40px 0px 30px 0px; */
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+figure {
+  text-align: left;
+  /* float: left; */
+}
+
+div {
+  margin: 20px 20px 80px 20px;
+}
+
+img {
+  padding: 10px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 60%;
+  height: auto;
+}
+
+.title {
+  height: 120px;
+  width: auto;
+  background-color: darkslategray;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
