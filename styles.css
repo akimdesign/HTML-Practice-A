@@ -3,9 +3,16 @@ body {
   background-color: rgb(189, 206, 206);
   font-family: "Crimson Text", serif;
 }
-
+* {
+  box-sizing: border-box;
+}
 a {
   text-decoration: none;
+}
+
+img:hover {
+  border: solid 1px darkviolet;
+  box-shadow: 0px 0px 9px 3px #464343;
 }
 
 h1 {
@@ -29,21 +36,27 @@ h4 {
 
 figure {
   text-align: left;
-  /* float: left; */
+  width: 220px;
+  height: auto;
+}
+figcaption {
+  margin-top: 1rem;
 }
 
-div {
-  margin: 20px 20px 80px 20px;
+main div {
+  padding: 1rem 5rem 2rem 3rem;
   display: grid;
-  grid-template-columns: 0.5fr 1fr 2fr;
-}
-
-img {
-  padding: 10px;
+  grid-template-columns: 0.5fr 0.5fr 2fr;
 }
 
 p {
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
+}
+
+.copyright {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
 }
